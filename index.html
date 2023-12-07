@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ *{padding: 0; margin: 0;}
+
+body{font-family: "Noto Sans KR"; font-size: 14px; color: #444444;}
+li{list-style-type: none;}
+header{background-color: white; position: fixed; width: 1800px; height:100px;margin-top: 0px;/* border: solid 1px red;*/}
+#logo{float: left; margin: 20px 0 0 40px;/*border: solid 1px red;*/}
+#menus{float: right; /*border: solid 1px red;*/}
+#top_menu{text-align: right; color:#717171; margin-top:10px; margin-right: 50px;/*border: solid 1px red;*/}
+#main_menu{margin-top:0px; font-family: "Noto Sans KR"; font-size: 16px; color: black; /* border: red;*/}
+#main_menu li{display: inline; margin-left: 20px;}
+#main_img{width: 100%; height: 100px; background-color: white; background-image: url(Main.png);
+          background-repeat: no-repeat; background-position:center; margin-top: 0px;}
+
+li{list-style-type: none;}
+#contents{width: 1800px; margin:auto;}
+#sub_menu{position: fixed; width: 100px; float: left; margin-top:40px;}
+#sub_menu li{border-bottom: dotted 1px #cccccc; width:250px;}
+#sub_menu p{color: skyblue; width:250px;text-decoration:none; background-color:black; width: 250px;}
+#main_contents{width: 1450px; float: right; margin: 0;}
+#main_contents h3{position: fixed; font-size: 22px; padding-bottom: 8px;
+background-color: white; display: block; width: 1450px; /* 밑줄 길이 조절 */ border-bottom: 2px solid #000000;}
+#main_contents p{margin-top: 50px;margin-right: 50px; line-height: 180%;}
+#main_contents #figure{margin-top: 30px;}
+#main_contents li{padding: 5px;}
+
+footer{clear: both; width: 100%; height: 150px; margin-top: 10px; background-color: #000000;}
+ #footer_box{width: 1800px; height: 150px; margin: 30 auto;}
+#footer_logo{float:left; margin: 50px 0 0 30px; }
+#address{font-size: 10px;float: right; margin: 50px 60px 0 0; color: rgb(156, 156, 156);}
+
+a:link, a:visited{
+    background-color:none;
+    color: black;
+    padding: 10px 15px;
+    text-align: auto;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{color:rgb(98, 164, 190); text-decoration:none; background-color:rgb(255, 255, 255); width: 220px; font-weight:bold;}
+</style>
+</head>
+<body>
+<header><a href="index.html">
+    <div id="logo">
+    <img src="LOGO.png"></a>
+    </div>
+    <nav id="menus">
+        <div id="top_menu">
+            <li>박해진님의 블로그</li>
+        </div>
+    </nav>
+</header>
+<section id="main_img"></section>
+    <section id="contents">
+        <nav id="sub_menu">
+            <ul>
+                <li><a href="1.html">PROFILE</a></li>
+                <li><a href="2.html">POST</a></li>
+                <li><a href="3.html">LIKE</a></li>
+                <li><a href="4.html">SCHEDULE</a></li>
+                <li><a href="5.html">MY ITEM</a></li>
+            </ul>
+            </nav>
+    <div id="main_contents">
+        <h3></h3>
+        <p></p>
+    <div id="figure">
+        <img src="1011.png" width="1400px"></div>
+        <p></p>
+        <ul></ul>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+        </section>
+       <footer class="clear">
+        <div id="footer_box">
+            <div id="footer_logo">
+            <img src="LOGO2.png"></div>
+            <ul id="address">
+             <li> 경기도 수원시 권선구 165번길 30</li>
+             <li>TEL : 010 - 1234 - 5678</li>
+             <li>EMAIL : abcdef0713@naver.com</li>
+            </ul>
+        </div>
+        </footer>
+    
+</body>
+</html>
